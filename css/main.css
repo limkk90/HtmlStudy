@@ -1,0 +1,19 @@
+/* .이름~~   (. 찍고 이름) 이게 클래스임{ 
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 위의 코드를 .profile이라는 이름으로 축약한 것임 
+*/
+
+.profile {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  text-align: center;
+  margin-top: 30px;
+}
