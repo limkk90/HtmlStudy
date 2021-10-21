@@ -1,0 +1,65 @@
+/* .container {
+  width: 500px;
+}
+
+.writeContainer {
+  width: 60%;
+  height: 200px;
+  float: left;
+}
+
+.nameBox {
+  width: 100%;
+  height: 50%;
+  float: left;
+}
+
+.readBox {
+  width: 100%;
+  height: 50%;
+  float: left;
+}
+
+.imageContainer {
+  width: 40%;
+  height: 200px;
+  background: royalblue;
+  float: right;
+}
+
+.imageBox {
+  width: 30%;
+  height: 200px;
+  background-color: lightblue;
+}
+*/
+/* 풀이 */
+.container {
+  width: 800px;
+  /* 블로그 글 중앙정렬 */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blog-content {
+  width: 80%;
+  height: 200px;
+  background: silver;
+  float: left;
+}
+.blog-img {
+  width: 20%;
+  height: 200px;
+  background: yellow;
+  float: left;
+}
+
+.blog-profile {
+  width: 50px;
+  float: left;
+  display: block;
+}
+
+.blog-name {
+  float: left;
+}

@@ -23,6 +23,13 @@
   /* display:block 가로로 한 행을 다 차지해주세요 (div, p, h) */
   /* display:inliblock 내 크기만큼 차지해주세요 */
   display: inline-block;
+  /* vertical-align = 상하정렬 위로 보낼거면 top 
+     아래로 보낼거면 bottom 
+     이거는 inline속성에만 적용이 가능함*/
+  /* 글을 작성할 때 베이스라인 선이 존재하는데 박스옆에 베이스라인이 오면 
+       베이스라인 위로 박스가 올라가려고 발작함 그래서 꺠지는거임
+       그래서 vertical-align 정렬이 필요하다! */
+  vertical-align: top;
 }
 
 .right {
