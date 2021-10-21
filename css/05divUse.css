@@ -1,0 +1,45 @@
+.profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title {
+  text-align: center;
+  font-size: 50px;
+}
+
+.content {
+  text-align: center;
+}
+
+.box {
+  text-align: center;
+  width: 200px;
+  /* height: 100px; */
+  background-color: cadetblue;
+  /* 상하좌우 margin을 동시에 줌 */
+  /* margin top, margin bottom, margin left, margin right */
+  margin: 10px;
+  /* padding 안쪽여백 */
+  /* padding top, bottom, right, left */
+  padding: 40px;
+  /*      보더두꼐px 보더종류 보더색깔 */
+  /* border: 4px solid black; */
+  /* 보더종류: solid 굵음, dotted 점선 */
+  /* 보더 둥글게 */
+  border-radius: 15px;
+
+  /* p, h , div태그는 display:block속성을 강제로 가지고 있음 */
+  /* div태그 가운데 정렬방법 */
+  /* display: block는 가로행을 전부 차지해주셈 */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* Inherit 기능 = html에서 부모태그에 있는 속성은 자식에게도 상속된다  */
+  font-size: 10px;
+  color: white;
+  font-family: serif;
+  /* 박스 shadow */
+  box-shadow: 5px 5px black;
+}
