@@ -1,0 +1,55 @@
+/* .navbar만 해주면 안먹음 */
+/* 그러면 ul밑에있는 li에 class를 다 달아줘야 하는데 귀찮음 */
+/* navbar안에있는 li는 모두 이 속성을 가져라 */
+
+/* .navbar > li 내 밑에있는 하나만 속성을 먹이고 싶을 떄 */
+/* .navbar li li밑에있는 자식까지 전부*/
+.navbar li {
+  display: inline-block;
+  /* font-size: 16px; 이것도 됨 공백 셀렉터라서 */
+  width: 60px;
+  text-align: center;
+  background: #eee;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navbar a {
+  font-size: 16px;
+  /* a href태그의 밑줄 제거 */
+  text-decoration: none;
+}
+
+/* .content {
+  background-color: black;
+} */
+
+.container {
+  width: 800px;
+  /* 블로그 글 중앙정렬 */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blog-content {
+  width: 80%;
+  height: 200px;
+  background: silver;
+  float: left;
+}
+.blog-img {
+  width: 20%;
+  height: 200px;
+  background: yellow;
+  float: left;
+}
+
+.blog-profile {
+  width: 50px;
+  float: left;
+  display: block;
+}
+
+.blog-name {
+  float: left;
+}
