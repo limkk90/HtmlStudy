@@ -41,6 +41,20 @@
   text-align: center;
 }
 
-.button-css {
-  color: #966b6b;
+.main-button {
+  padding: 15px;
+  font-size: 20px;
+  background: white;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* position 속성이 있어야 좌표 이동이 가능 */
+  /* 내 원래 위치를 기준점으로 잡아주세요 */
+  position: relative;
+  top: 50px;
+  /* left: 50px;
+  right: 500px;
+  bottom: 100px; */
 }
