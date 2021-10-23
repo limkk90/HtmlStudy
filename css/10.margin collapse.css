@@ -1,0 +1,23 @@
+.main-background {
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/shoes.jpg);
+  /* background-size: 100%; */
+
+  /* cover 니가 알아서 div박스에 공백없이 꽉 채워라 */
+  /* contain div박스가 남아도 좋으니 사진을 절대 짜르지 마라 */
+  background-size: cover;
+
+  /* 배경 이미지는 꽉 차지 않으면 반복된다 */
+  /* 이러면 반복 안됨 */
+  background-repeat: no-repeat;
+  background-position: left;
+
+  /* 스크롤 할때 배경 어케할지 */
+  /* background-attachment: fixed; */
+
+  /* 배경틴트 입히기:사진 밝기나 다른거 조정 */
+  /* filter: brightness(70%); */
+
+  /* 배경 여러개 겹치기 */
+}
