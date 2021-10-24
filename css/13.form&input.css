@@ -110,3 +110,25 @@ body {
 }
 
 /* 여기서부터 12강 css */
+
+/* 여기서부터 13강 css */
+input {
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+
+/* .text-input {
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+} */

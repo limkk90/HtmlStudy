@@ -1,0 +1,63 @@
+div {
+  /* 이러면 width가 content영역뿐 아닌 padding, border포함함 */
+  /* 모든 div에 이 설정을 준다 */
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+/* 잘하는 숙련자일수록 위에 설정해놓고 하는게 많음 */
+input {
+  padding: 15px;
+  border: 3px solid grey;
+  border-radius: 5px;
+}
+
+input[type="text"] {
+  width: 100px;
+}
+
+.main-background {
+  background-color: black;
+  width: 100%;
+  height: 1000px;
+  padding: 1px;
+}
+
+.main-contact {
+  position: relative;
+  background-color: white;
+  width: 50%;
+  height: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+
+.contact-email {
+  position: absolute;
+  left: 300px;
+}
+
+.contact-Firstname {
+  position: absolute;
+  top: 150px;
+  left: 300px;
+}
+
+.contact-Lastname {
+  position: absolute;
+  top: 150px;
+  left: 450px;
+}
+
+.contact-message {
+  position: absolute;
+  top: 250px;
+  left: 300px;
+}
+
+.contact-button {
+}
