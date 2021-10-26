@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link href="css/15.table,Vertical-align.css" rel="stylesheet">
+    </head>
+    <body>
+    <div>
+      <table>
+          <!-- tr(행, 가로줄) -->
+          <!-- td(열, 세로줄) -->
+          <!-- th(열, 제목용 세로줄) -->
+          <!-- 제목행은 <thead>안에 -->
+          <!-- 일반행은 <tbody>안에 넣으면 좋음 -->
+          <!-- 분류를 위해서 사용 기능상으로는 차이없음 -->
+          <thead>
+            <tr>
+                <th><p>abcabc</p>abcabc<p></p></th>
+                <!-- inline/inline-block 요소 간의 세로정렬할 때 vertical-align씀 -->
+                <td style="vertical-align: top;">2</td>
+                <td>3</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>1</th>
+              <td>2</td>
+              <td>3</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <p style="font-size: 50px;">grettings
+        <span style="font-size: 20px; vertical-align: top;">안녕</span></p>
+        <div> 
+          <img src="https://mdn.mozillademos.org/files/12245/frame_image.svg" width="32" height="32"> 
+          <span style="vertical-align: top;">image with a default alignment.</span>
+        </div> 
+    </div>
+    <!-- display:inline 예시-->
+    <span>가나다라마바사</span><span>가나다라마바사</span>
+    <!-- display:inline-block 예시-->
+    <p>abcdefghijklm</p><p>abcdefghijklm</p>
+  </body>
+</html>

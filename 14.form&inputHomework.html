@@ -3,31 +3,46 @@
     <head>
         <meta charset="UTF-8">
         <title>Document</title>
-        <link href="css/14.form&input homework.css" rel="stylesheet">
+        <link href="css/14-1.form&inputHomework.css" rel="stylesheet">
     </head>
 </html>
-<body style="margin: 0px">
-    <div class="main-background">
-        <div class="main-contact">
-            <h2 style="margin-top: 50px; margin-left: 300px;">Contact Us</h2>
-            <div class="contact-email">
-                <h2>Email</h2>
-                <input type="email" style="width: 250px;">
+<!-- 풀이 -->
+<body>
+<div class="form-background">
+    <div class="form-white">
+        <form>
+            <div class="w-100">
+                <h3>Contact US</h3>
+                <p>Your Email</p>
+                <input class="form-input" type="email" placeholder="your@email.com">
             </div>
-            <div class="contact-Firstname">
-                <h2>First name</h2>
-                <input type="text">
+            <div class="w-50">
+                <p>First Name</p>
+                <input class="form-input" type="text">
             </div>
-            <div class="contact-Lastname">
-                <h2>Last Name</h2>
-                <input type="text">
+            <div class="w-50">
+                <p>Last Name</p>
+                <input class="form-input" type="text">
             </div>
-            <div class="contact-message">
-                <h2>Input Your Message</h2>
-                <textarea rows="10" style="width: 250px; border: 2px solid grey; border-radius: 5px;"></textarea>
-                
+            
+            <div style="clear:both"></div>
+
+            <div class="w-100">
+                <p>Message</p>
+                <!-- 속성이 더 필요하면 그냥 클래스 하나 추가하면 된다 -->
+                <textarea class="form-input form-long"></textarea>
             </div>
-            <div class="contact-button"></div>
-        </div>
+
+            <div>
+                <input id="sub" type="checkbox">
+                <!-- <span>체크하세요</span> -->
+                <!-- input에 label 태그 많이 사용함 -->
+                <label for="sub">Subscribe</label>
+                <button class="yellow-button">SEND</button>
+            </div>
+            
+        </form>
     </div>
+</div>
 </body>
+

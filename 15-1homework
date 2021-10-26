@@ -1,0 +1,52 @@
+<!-- <!DOCTYPE html> -->
+<!-- <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>homework</title>
+        <link href="css/15.homework.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main-background">
+            <div class="form-blue">
+                <div class="form-title">
+                    <h3>Your Shopping Cart</h3>              
+                </div>
+                <div class="w-100">
+                  <table>
+                      <thead>
+                         <tr>
+                             <td>Item</td>
+                             <td>Amount</td>
+                             <td>Price</td>
+                             <td>Total</td>
+                         </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                            <th><img src="img/orange.PNG"></th>
+                            <th>1</th>
+                            <th>10000$</th>
+                            <th>100000$</th>
+                        </tr>
+                        <tr>
+                            <th><img src="img/shoes.jpg" style="width: 30%;"></th>
+                            <th>1</th>
+                            <th>10000$</th>
+                            <th>100000$</th>
+                        </tr>
+                        <tr>
+                            <th><img src="img/orange.PNG"></th>
+                            <th>1</th>
+                            <th>10000$</th>
+                            <th>100000$</th>
+                        </tr>
+                      </tbody>
+                  </table>    
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html> -->
+
+<!-- 풀이 -->
