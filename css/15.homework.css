@@ -43,3 +43,46 @@ thead td {
   background-color: #c2d3de;
   padding: 30px;
 }
+
+.cart-table {
+  width: 100%;
+  /* 아무리 커져도 700px을 넘어가지 않음 */
+  max-width: 700px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+td,
+th {
+  /* 이거 하니까 선나오네 */
+  /* border: 1px solid black; */
+}
+
+.cart-table td {
+  /* 이거 쓰니가 칸 넓어지네 */
+  padding: 15px;
+
+  /* border: 1px solid #c2d3de; */
+
+  border-bottom: 1px solid #c2d3de;
+}
+
+.cart-table th {
+  /* 이거 쓰니가 칸 넓어지네 */
+  padding: 15px;
+
+  /* border: 1px solid #c2d3de; */
+
+  border-bottom: 1px solid #c2d3de;
+}
+
+/* 열에있는 하나만 width를 늘려도 다른쪽도 다 늘어남  */
+.cell-long {
+  width: 300px;
+}
+
+/* 2 */
+.cart-table th:nth-child(2) {
+  width: 1000px;
+}
