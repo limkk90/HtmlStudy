@@ -1,43 +1,3 @@
-/* body {
-  margin: 0px;
-}
-
-thead td {
-  color: black;
-}
-
-.main-background {
-  width: 100%;
-  height: 1000px;
-  background-color: aquamarine;
-}
-
-.form-blue {
-  background-color: rgb(80, 143, 179);
-  padding: 30px;
-  width: 80%;
-  height: 600px;
-  margin: auto;
-}
-
-.form-title {
-  color: cyan;
-  font-size: 30px;
-}
-
-.w-100 {
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  margin: auto;
-}
-
-.w-100 table {
-  border: 1px;
-} */
-
-/* 풀이 */
-
 .cart-background {
   width: 100%;
   background-color: #c2d3de;
@@ -84,5 +44,10 @@ th {
 
 /* 2 */
 .cart-table th:nth-child(2) {
+  width: 1000px;
+}
+
+/* 3 */
+.cart-table th:nth-child(3) {
   width: 1000px;
 }
