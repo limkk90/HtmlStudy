@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Message Alert</title>
+    <style>
+      body{
+        margin-top: 200px !important;
+      }
+      
+      .alert{
+        display: flex;
+        max-width: 24rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Utility First -->
+    <!-- max-w-sm
+         sm = small lg = large
+    -->
+    <div class="flex items-center p-12 max-w-sm mx-auto bg-white rounded-xl shadow-lg space-x-4">
+      <div>
+        <img class="h-12 w-12" src="../assets/img/warning.svg" alt="alert">
+      </div>
+      <div class="text-xl font-medium text-black">Are you sure?</div>
+      <p class="text-slate-500">You are about to delete a post</p>
+    </div>
+  </body>
+</html>
